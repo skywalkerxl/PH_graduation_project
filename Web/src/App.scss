@@ -1,0 +1,43 @@
+/* ================================================
+
+ 默认样式重置
+
+================================================ */
+
+html, body {
+  margin: 0; padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; padding: 0;
+}
+
+input {
+  margin: 0; padding: 0;
+  border: none; outline: none; border-radius: 0;
+  box-shadow: none;
+  background: #fff;
+}
+
+button {
+  margin: 0; padding: 0;
+  border: none; outline: none; border-radius: 0;
+  box-shadow: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+.link-active {
+  color: #000;
+}
+
+ul,li {
+  margin: 0 ;padding: 0;
+  list-style: none;
+}

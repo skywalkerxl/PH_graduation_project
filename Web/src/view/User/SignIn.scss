@@ -1,0 +1,26 @@
+@import "../../common/variable";
+
+$signin-btn-bg: #009688;
+$signin-btn-color: #c5e7e4;
+
+
+.form-wrapper {
+  width: 100%; text-align: center; margin-top: 243*$r;
+  .input-box {
+    width: 443*$r; height: 94*$r; padding-left: 50*$r; margin-bottom: 20*$r;
+    font-size: 32*$r;
+    border: 1px solid #bbbbbb; border-radius: 36*$r;
+  }
+
+  .btn-signin {
+    width: 493*$r; height: 92*$r; margin-top: 180*$r;
+    color: $signin-btn-color; line-height: 92*$r; text-align: center;font-size: 32*$r;
+    background: $signin-btn-bg;
+    border-radius: 36*$r;
+  }
+  .back-singin {
+    display: block;
+    width: 100%; height: 50*$r; margin-top: 100*$r;
+    text-align: center; line-height: 50*$r; font-size: 26*$r; color: #565656;
+  }
+}

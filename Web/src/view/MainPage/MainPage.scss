@@ -1,0 +1,15 @@
+@import "../../common/variable";
+
+.menu-wrapper {
+  display: inline-block;
+  width: 50%; height: 240*$r; padding: 80*$r 0 ;
+  text-align: center;
+
+  .icon {
+    width: 160*$r; height: 160*$r;
+  }
+
+  .text {
+    font-size: 44*$r; line-height: 80*$r;
+  }
+}

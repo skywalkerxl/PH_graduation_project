@@ -1,0 +1,30 @@
+@import "../../common/variable";
+
+.wrapper {
+  text-align: center;
+
+  .logo {
+    width: 100*$r; height: 100*$r; margin-top: 85*$r;
+  }
+
+  .desc {
+    line-height: 97*$r; font-size: 30*$r;
+    color: #808081;
+  }
+
+  .farm-num {
+    width: 456*$r; height: 90*$r;
+    padding: 0 30*$r; margin-top: 110*$r; margin-bottom: 76*$r;
+    font-size: 32*$r;
+    border-radius: 30*$r;
+    border: 1px solid #bbbbbb;
+  }
+
+  .btn-confirm {
+    width: 516*$r; height: 92*$r;
+    line-height: 92*$r; font-size: 32*$r; text-align: center;
+    color: #cceae7;
+    background: #009688;
+    border-radius: 30*$r;
+  }
+}
